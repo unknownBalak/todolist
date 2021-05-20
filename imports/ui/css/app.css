@@ -1,0 +1,26 @@
+.noteBook {
+  max-width: 500px;
+  /* max-width: 100%; */
+  margin: auto;
+  background-color: beige;
+  padding: 40px;
+}
+.noteBook h1 {
+  background-color: grey;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.noteBook form {
+  text-align: center;
+}
+@media (max-width: 762px) {
+  .noteBook {
+    padding: 10px;
+    overflow: hidden;
+  }
+}
